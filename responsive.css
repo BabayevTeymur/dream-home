@@ -1,0 +1,478 @@
+@media screen and (max-width:1223px) {
+    .header_head {
+        max-width: 900px;
+    }
+
+    .left_shadow {
+        display: none;
+    }
+
+    .top_shadow {
+        display: none;
+    }
+
+    .right_shadow {
+        display: none;
+    }
+
+    .bottom_shadow {
+        display: none;
+    }
+
+    .shadows {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1162px) {
+    .information {
+        max-width: 900px;
+        margin: 58px auto;
+    }
+    .header_center {
+        max-width: 900px;
+        margin-top: 226px;
+        margin-left: 30px;
+    }
+    .features {
+        max-width: 900px;
+        margin: 60px auto;
+    }
+    
+}
+
+@media screen and (max-width:1185px) {
+    .big_left {
+        margin-top: 150px;
+    }
+
+    .big_right {
+        margin-top: 150px;
+    }
+
+    .slider_card img {
+        max-width: 600px;
+    }
+
+    .section_cards_container {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 600px;
+    }
+
+    .second_section_name {
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .position {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .third_section_container {
+        max-width: 900px;
+    }
+
+    .sentences h2 {
+        max-width: 500px;
+        font-size: 34px;
+    }
+
+    .sentences {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .sentences p {
+        font-size: 24px;
+        max-width: 400px;
+    }
+
+    .messages {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .fifth_shadow {
+        display: none;
+    }
+
+    .footer_first {
+        max-width: 900px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section_buttons {
+        max-width: 900px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width:953px) {
+    .features_container {
+        margin-top: 32px;
+        max-width: 600px;
+        display: block;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .features {
+        max-width: 200px;
+        margin: 60px auto;
+    }
+    .information {
+        max-width: 600px;
+        margin: 58px auto;
+    }
+    .header_head {
+        max-width: 600px;
+    }
+
+    .header_center h1 {
+        font-size: 34px;
+    }
+
+    .second_section_name {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .third_section_container {
+        display: block;
+    }
+
+    .second_step {
+        padding-left: 30px;
+        padding-top: 60px;
+        display: flex;
+    }
+
+    .beneath_stage {
+        margin-top: 0;
+    }
+    .a_lot_of{
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:869px) {
+    .fifth_section_container {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .sentences {
+        z-index: 999;
+        text-align: center;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .sentences h2 {
+        padding-left: 60px;
+    }
+
+    .sentences p {
+        z-index: 999999;
+        max-width: 600px;
+    }
+
+    .messages {
+        z-index: 99999;
+        max-width: 500px;
+        margin: 50px auto;
+    }
+
+    .first_step {
+        margin: 0 auto;
+    }
+
+    .footer_first {
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .footer_second_step {
+        max-width: 220px;
+        margin-top: 60px;
+    }
+
+    .footer_third_step h4 {
+        margin-top: 60px;
+    }
+
+    .header_end {
+        display: none;
+    }
+}
+
+@media screen and (max-width:697px) {
+    .header_center h1 {
+        font-size: 2.6rem;
+    }
+
+}
+
+@media screen and (max-width:615px) {
+    .information {
+        max-width: 400px;
+        margin: 58px auto;
+        gap: 20px;
+    }
+    .features_container p {
+        font-size: 12px;
+    }
+    .money h3 {
+        font-size: 20px;
+    }
+    .info2 p {
+        font-size: 18px;
+    }
+    .money {
+        display: flex;
+        justify-content: start;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:664px) {
+    label i {
+        display: block !important;
+        font-size: 3rem;
+        color: white;
+    }
+
+    .nav_list {
+        gap: 30px;
+        flex-direction: column;
+        position: fixed;
+        left: -2000px;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 150px;
+        text-align: center;
+        top: 0;
+        height: 40vh;
+        z-index: 9999999;
+    }
+
+    .nav_list li a {
+        font-size: 2rem;
+    }
+
+    .nav_list li {
+        padding-top: 20px;
+    }
+
+    #check_box:checked~.nav_list {
+        left: 0;
+    }
+
+    .header_head {
+        max-width: 400px;
+    }
+
+    .inactive {
+        height: 42px;
+        border-radius: 8px;
+        padding: 12px 20px;
+        border: 1.5px solid rgba(255, 251, 251, 0.35);
+        text-align: center;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 139.52%;
+        color: var(--white);
+        background: none;
+    }
+
+    .active {
+        border: 1.5px solid var(--orange);
+        color: var(--orange);
+    }
+
+    .card {
+        margin: 0 30px;
+        max-width: 400px;
+        border-radius: 0px 0px 8px 8px;
+        background-color: var(--contact);
+        overflow-x: hidden;
+    }
+
+    .second_section_name {
+        max-width: 400px;
+    }
+
+    .first_step {
+        margin: 0 30px;
+    }
+
+    .second_step {
+        padding: 0 30px;
+        padding-top: 20px;
+        display: block;
+    }
+
+    .third_section_container {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:536px) {
+    .sentences h2 {
+        font-size: 24px;
+    }
+
+    .sentences p {
+        font-size: 20px;
+    }
+
+    .messages {
+        margin: 20px 30px;
+    }
+
+    .messages input {
+        font-size: 12px;
+        width: 150px;
+    }
+
+    .footer_third p {
+        padding-left: 140px;
+    }
+
+    .inactive {
+        padding: 12px 16px;
+        font-size: 6px;
+    }
+
+    .selection_button button {
+        padding: 10px 22px;
+        font-size: 10px;
+        width: 80px;
+    }
+
+    .selection_button svg {
+        width: 8px;
+        height: 10px;
+        right: 8px;
+    }
+}
+
+@media screen and (max-width:454px) {
+    .header_head {
+        max-width: 300px;
+    }
+
+    .second_section_name {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width:478px) {
+    .card {
+        max-width: 300px;
+    }
+
+    .left_icoon svg {
+        margin-top: 100px;
+    }
+
+    .right_icoon svg {
+        margin-top: 100px;
+    }
+
+    .costs p {
+        font-size: 18px;
+    }
+
+    .costs button {
+        padding: 4px 16px;
+        font-size: 8px;
+    }
+
+    .table_td {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:420px) {
+
+    .header_img figcaption {
+        margin-left: -2px;
+        font-size: 8px;
+    }
+
+    .header_list button {
+        height: 30px;
+        padding: 6px 14px;
+        width: 100px;
+        font-size: 8px;
+    }
+    .sentences h2 {
+        max-width: 400px;
+        font-size: 20px;
+    }
+    .sentences p {
+        margin: 0 auto;
+        text-align: center;
+        max-width: 300px;
+        font-size: 16px;
+    }
+    .header_center h1 {
+        font-size: 20px;
+    }
+    .svg_position svg {
+        width: 300px;
+        height: 300px;
+        margin-top: 426px;
+    }
+    .section_buttons {
+        display: block;
+    }
+    .selection_button button {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:352px) {
+    .messages input {
+        width: 100px;
+    }
+    .info2 {
+        margin: 11px auto;
+        display: block;
+        gap: 26px;
+    }
+    .information {
+        max-width: 200px;
+        margin: 58px auto;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .first_step h2 {
+        font-size: 20px;
+    }
+    .first_step p {
+        font-size: 12px;
+    }
+    .first_step button {
+        padding: 8px 18px;
+        font-size: 10px;
+    }
+    .stage h2 {
+        font-size: 24px;
+    }
+    .stage h4 {
+        font-size: 14px;
+    }
+    .stage p {
+        font-size: 14px;
+    }
+}
